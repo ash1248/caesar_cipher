@@ -1,0 +1,4 @@
+Invoking command in '/home/ash/ros2_ws/build/decipher': CMAKE_PREFIX_PATH=/home/ash/ros2_ws/install/cipher_interfaces:/home/ash/ros2_ws/install/decipher:/opt/ros/humble /usr/bin/cmake --build /home/ash/ros2_ws/build/decipher -- -j14 -l14
+Invoked command in '/home/ash/ros2_ws/build/decipher' returned '0': CMAKE_PREFIX_PATH=/home/ash/ros2_ws/install/cipher_interfaces:/home/ash/ros2_ws/install/decipher:/opt/ros/humble /usr/bin/cmake --build /home/ash/ros2_ws/build/decipher -- -j14 -l14
+Invoking command in '/home/ash/ros2_ws/build/decipher': CMAKE_PREFIX_PATH=/home/ash/ros2_ws/install/cipher_interfaces:/home/ash/ros2_ws/install/decipher:/opt/ros/humble /usr/bin/cmake --install /home/ash/ros2_ws/build/decipher
+Invoked command in '/home/ash/ros2_ws/build/decipher' returned '0': CMAKE_PREFIX_PATH=/home/ash/ros2_ws/install/cipher_interfaces:/home/ash/ros2_ws/install/decipher:/opt/ros/humble /usr/bin/cmake --install /home/ash/ros2_ws/build/decipher

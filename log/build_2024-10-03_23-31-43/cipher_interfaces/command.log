@@ -1,0 +1,4 @@
+Invoking command in '/home/ash/ros2_ws/build/cipher_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ash/ros2_ws/build/cipher_interfaces -- -j14 -l14
+Invoked command in '/home/ash/ros2_ws/build/cipher_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ash/ros2_ws/build/cipher_interfaces -- -j14 -l14
+Invoking command in '/home/ash/ros2_ws/build/cipher_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ash/ros2_ws/build/cipher_interfaces
+Invoked command in '/home/ash/ros2_ws/build/cipher_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ash/ros2_ws/build/cipher_interfaces

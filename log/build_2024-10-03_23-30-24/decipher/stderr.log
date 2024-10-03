@@ -1,0 +1,8 @@
+[01m[K/home/ash/ros2_ws/src/decipher/src/decipher2.cpp:[m[K In member function ‘[01m[Kvoid DecipherNode::topic_callback(const CipherMessage&) const[m[K’:
+[01m[K/home/ash/ros2_ws/src/decipher/src/decipher2.cpp:57:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class DecipherNode[m[K’ has no member named ‘[01m[Knode[m[K’; did you mean ‘[01m[KNode[m[K’?
+   57 |       if (rclcpp::spin_until_future_complete(this->[01;31m[Knode[m[K, result_future)
+      |                                                    [01;31m[K^~~~[m[K
+      |                                                    [32m[KNode[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/decipher2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

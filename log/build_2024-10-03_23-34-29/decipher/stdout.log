@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 33%] Built target talker
+[ 50%] [32mBuilding CXX object CMakeFiles/service.dir/src/testsrv.cpp.o[0m
+[ 83%] Built target listener
+[100%] [32m[1mLinking CXX executable service[0m
+[100%] Built target service
+-- Install configuration: ""
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher//launch
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher//launch/__pycache__
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher//launch/__pycache__/launch.cpython-310.pyc
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher//launch/launch.py
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher//config
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher//config/params.yaml
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/lib/decipher/talker
+-- Installing: /home/ash/ros2_ws/install/decipher/lib/decipher/service
+-- Set runtime path of "/home/ash/ros2_ws/install/decipher/lib/decipher/service" to ""
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/lib/decipher/listener
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/ament_index/resource_index/package_run_dependencies/decipher
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/ament_index/resource_index/parent_prefix_path/decipher
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/environment/path.sh
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/environment/path.dsv
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/local_setup.bash
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/local_setup.sh
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/local_setup.zsh
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/local_setup.dsv
+-- Installing: /home/ash/ros2_ws/install/decipher/share/decipher/package.dsv
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/ament_index/resource_index/packages/decipher
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/cmake/decipherConfig.cmake
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/cmake/decipherConfig-version.cmake
+-- Up-to-date: /home/ash/ros2_ws/install/decipher/share/decipher/package.xml

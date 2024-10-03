@@ -1,0 +1,546 @@
+[0.000000] (-) TimerEvent: {}
+[0.000180] (cipher_interfaces) JobQueued: {'identifier': 'cipher_interfaces', 'dependencies': OrderedDict()}
+[0.000208] (decipher) JobQueued: {'identifier': 'decipher', 'dependencies': OrderedDict([('cipher_interfaces', '/home/ash/ros2_ws/install/cipher_interfaces')])}
+[0.000270] (cipher_interfaces) JobStarted: {'identifier': 'cipher_interfaces'}
+[0.013699] (cipher_interfaces) JobProgress: {'identifier': 'cipher_interfaces', 'progress': 'cmake'}
+[0.013834] (cipher_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ash/ros2_ws/src/cipher_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ash/ros2_ws/install/cipher_interfaces'], 'cwd': '/home/ash/ros2_ws/build/cipher_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ash'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ash'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ash'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ash-VirtualBox:@/tmp/.ICE-unix/2897,unix/ash-VirtualBox:/tmp/.ICE-unix/2897'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/944ff877_8998_455d_a1bc_da2cdbc15e3b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VBDJU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ash/ros2_ws/build/cipher_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100776] (-) TimerEvent: {}
+[0.205974] (-) TimerEvent: {}
+[0.297082] (cipher_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.308382] (-) TimerEvent: {}
+[0.402834] (cipher_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.422189] (-) TimerEvent: {}
+[0.422617] (cipher_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.538508] (-) TimerEvent: {}
+[0.539579] (cipher_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.548186] (cipher_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.551237] (cipher_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.553138] (cipher_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.556468] (cipher_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.639199] (-) TimerEvent: {}
+[0.690765] (cipher_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.709674] (cipher_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.709836] (cipher_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.709881] (cipher_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.719175] (cipher_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.741992] (-) TimerEvent: {}
+[0.882904] (-) TimerEvent: {}
+[0.888513] (cipher_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.982468] (cipher_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.983455] (-) TimerEvent: {}
+[0.993678] (cipher_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.000021] (cipher_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.040765] (cipher_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.085047] (cipher_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.085198] (-) TimerEvent: {}
+[1.193933] (-) TimerEvent: {}
+[1.312907] (-) TimerEvent: {}
+[1.459181] (-) TimerEvent: {}
+[1.464086] (cipher_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.563005] (-) TimerEvent: {}
+[1.675958] (-) TimerEvent: {}
+[1.771007] (cipher_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.776243] (-) TimerEvent: {}
+[1.879831] (-) TimerEvent: {}
+[1.987612] (-) TimerEvent: {}
+[2.088156] (-) TimerEvent: {}
+[2.194148] (cipher_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.194297] (-) TimerEvent: {}
+[2.225202] (cipher_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.257411] (cipher_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.294329] (cipher_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.294579] (-) TimerEvent: {}
+[2.294695] (cipher_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.294959] (cipher_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.295041] (cipher_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.324499] (cipher_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.394796] (-) TimerEvent: {}
+[2.407917] (cipher_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.454501] (cipher_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.457508] (cipher_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ash/ros2_ws/build/cipher_interfaces\n'}
+[2.465958] (cipher_interfaces) CommandEnded: {'returncode': 0}
+[2.474035] (cipher_interfaces) JobProgress: {'identifier': 'cipher_interfaces', 'progress': 'build'}
+[2.474155] (cipher_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ash/ros2_ws/build/cipher_interfaces', '--', '-j14', '-l14'], 'cwd': '/home/ash/ros2_ws/build/cipher_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ash'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ash'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ash'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ash-VirtualBox:@/tmp/.ICE-unix/2897,unix/ash-VirtualBox:/tmp/.ICE-unix/2897'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/944ff877_8998_455d_a1bc_da2cdbc15e3b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VBDJU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ash/ros2_ws/build/cipher_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.503902] (-) TimerEvent: {}
+[2.604829] (-) TimerEvent: {}
+[2.652841] (cipher_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.721135] (-) TimerEvent: {}
+[2.813961] (cipher_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.857648] (-) TimerEvent: {}
+[2.927453] (cipher_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_cipher_interfaces\n'}
+[2.961465] (-) TimerEvent: {}
+[3.062461] (-) TimerEvent: {}
+[3.165730] (-) TimerEvent: {}
+[3.266501] (-) TimerEvent: {}
+[3.369294] (-) TimerEvent: {}
+[3.475629] (-) TimerEvent: {}
+[3.577583] (-) TimerEvent: {}
+[3.678676] (-) TimerEvent: {}
+[3.761862] (cipher_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.762628] (cipher_interfaces) StdoutLine: {'line': b'creating cipher_interfaces.egg-info\n'}
+[3.767107] (cipher_interfaces) StdoutLine: {'line': b'writing cipher_interfaces.egg-info/PKG-INFO\n'}
+[3.785721] (cipher_interfaces) StdoutLine: {'line': b'writing dependency_links to cipher_interfaces.egg-info/dependency_links.txt\n'}
+[3.785891] (-) TimerEvent: {}
+[3.785990] (cipher_interfaces) StdoutLine: {'line': b'writing top-level names to cipher_interfaces.egg-info/top_level.txt\n'}
+[3.786047] (cipher_interfaces) StdoutLine: {'line': b"writing manifest file 'cipher_interfaces.egg-info/SOURCES.txt'\n"}
+[3.826420] (cipher_interfaces) StdoutLine: {'line': b"reading manifest file 'cipher_interfaces.egg-info/SOURCES.txt'\n"}
+[3.826600] (cipher_interfaces) StdoutLine: {'line': b"writing manifest file 'cipher_interfaces.egg-info/SOURCES.txt'\n"}
+[3.887566] (-) TimerEvent: {}
+[3.991419] (-) TimerEvent: {}
+[4.055568] (cipher_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_cipher_interfaces_egg\n'}
+[4.093520] (-) TimerEvent: {}
+[4.194515] (-) TimerEvent: {}
+[4.264736] (cipher_interfaces) StdoutLine: {'line': b'[  5%] Built target cipher_interfaces__cpp\n'}
+[4.264985] (cipher_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cipher_interfaces/msg/detail/cipher_message__functions.c.o\x1b[0m\n'}
+[4.272596] (cipher_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cipher_interfaces/srv/detail/cipher_answer__functions.c.o\x1b[0m\n'}
+[4.297178] (-) TimerEvent: {}
+[4.403262] (-) TimerEvent: {}
+[4.437882] (cipher_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.446483] (cipher_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.469468] (cipher_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.505265] (-) TimerEvent: {}
+[4.613475] (-) TimerEvent: {}
+[4.722839] (-) TimerEvent: {}
+[4.818217] (cipher_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcipher_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.824350] (-) TimerEvent: {}
+[4.891246] (cipher_interfaces) StdoutLine: {'line': b'[ 20%] Built target cipher_interfaces__rosidl_generator_c\n'}
+[4.925421] (-) TimerEvent: {}
+[4.930977] (cipher_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.931319] (cipher_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.938350] (cipher_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.026067] (-) TimerEvent: {}
+[5.140994] (-) TimerEvent: {}
+[5.249041] (-) TimerEvent: {}
+[5.351807] (-) TimerEvent: {}
+[5.452833] (-) TimerEvent: {}
+[5.556850] (-) TimerEvent: {}
+[5.666258] (cipher_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cipher_interfaces/msg/detail/cipher_message__type_support.cpp.o\x1b[0m\n'}
+[5.666442] (-) TimerEvent: {}
+[5.729117] (cipher_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cipher_interfaces/srv/detail/cipher_answer__type_support.cpp.o\x1b[0m\n'}
+[5.729314] (cipher_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cipher_interfaces/srv/cipher_answer__type_support.cpp.o\x1b[0m\n'}
+[5.731697] (cipher_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cipher_interfaces/msg/cipher_message__type_support.cpp.o\x1b[0m\n'}
+[5.780492] (-) TimerEvent: {}
+[5.896656] (-) TimerEvent: {}
+[5.998547] (-) TimerEvent: {}
+[6.106951] (-) TimerEvent: {}
+[6.213911] (-) TimerEvent: {}
+[6.254431] (cipher_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cipher_interfaces/msg/cipher_message__type_support.cpp.o\x1b[0m\n'}
+[6.260464] (cipher_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cipher_interfaces/msg/detail/dds_fastrtps/cipher_message__type_support.cpp.o\x1b[0m\n'}
+[6.310277] (cipher_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cipher_interfaces/srv/cipher_answer__type_support.cpp.o\x1b[0m\n'}
+[6.318331] (-) TimerEvent: {}
+[6.365362] (cipher_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cipher_interfaces/srv/detail/dds_fastrtps/cipher_answer__type_support.cpp.o\x1b[0m\n'}
+[6.429279] (-) TimerEvent: {}
+[6.541626] (-) TimerEvent: {}
+[6.645129] (cipher_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cipher_interfaces/msg/detail/cipher_message__type_support.c.o\x1b[0m\n'}
+[6.670362] (-) TimerEvent: {}
+[6.676310] (cipher_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cipher_interfaces/srv/detail/cipher_answer__type_support.c.o\x1b[0m\n'}
+[6.719875] (cipher_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libcipher_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.778652] (-) TimerEvent: {}
+[6.831918] (cipher_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cipher_interfaces/msg/detail/cipher_message__type_support_c.cpp.o\x1b[0m\n'}
+[6.833927] (cipher_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/cipher_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cipher_interfaces/srv/detail/cipher_answer__type_support_c.cpp.o\x1b[0m\n'}
+[6.879253] (-) TimerEvent: {}
+[7.002885] (-) TimerEvent: {}
+[7.119298] (-) TimerEvent: {}
+[7.134137] (cipher_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libcipher_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.221004] (cipher_interfaces) StdoutLine: {'line': b'[ 64%] Built target cipher_interfaces__rosidl_typesupport_c\n'}
+[7.223754] (-) TimerEvent: {}
+[7.329394] (-) TimerEvent: {}
+[7.405825] (cipher_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libcipher_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.433309] (-) TimerEvent: {}
+[7.544351] (-) TimerEvent: {}
+[7.585760] (cipher_interfaces) StdoutLine: {'line': b'[ 66%] Built target cipher_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.641630] (-) TimerEvent: {}
+[7.750001] (-) TimerEvent: {}
+[7.870085] (-) TimerEvent: {}
+[7.923213] (cipher_interfaces) StdoutLine: {'line': b'[ 66%] Built target cipher_interfaces__rosidl_typesupport_cpp\n'}
+[7.977509] (-) TimerEvent: {}
+[8.079607] (-) TimerEvent: {}
+[8.194192] (-) TimerEvent: {}
+[8.304471] (-) TimerEvent: {}
+[8.425835] (-) TimerEvent: {}
+[8.536844] (-) TimerEvent: {}
+[8.638597] (-) TimerEvent: {}
+[8.747891] (-) TimerEvent: {}
+[8.852438] (-) TimerEvent: {}
+[8.958573] (-) TimerEvent: {}
+[9.074475] (-) TimerEvent: {}
+[9.199263] (-) TimerEvent: {}
+[9.304703] (-) TimerEvent: {}
+[9.440516] (-) TimerEvent: {}
+[9.572051] (-) TimerEvent: {}
+[9.674866] (-) TimerEvent: {}
+[9.788925] (-) TimerEvent: {}
+[9.841991] (cipher_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcipher_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.844276] (cipher_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libcipher_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.889581] (-) TimerEvent: {}
+[9.991941] (-) TimerEvent: {}
+[10.048475] (cipher_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcipher_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.094358] (-) TimerEvent: {}
+[10.197833] (-) TimerEvent: {}
+[10.222086] (cipher_interfaces) StdoutLine: {'line': b'[ 74%] Built target cipher_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.231973] (cipher_interfaces) StdoutLine: {'line': b'[ 74%] Built target cipher_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.282011] (cipher_interfaces) StdoutLine: {'line': b'[ 74%] Built target cipher_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.298181] (-) TimerEvent: {}
+[10.321212] (cipher_interfaces) StdoutLine: {'line': b'[ 74%] Built target cipher_interfaces\n'}
+[10.367907] (cipher_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.504729] (-) TimerEvent: {}
+[10.760168] (-) TimerEvent: {}
+[10.790599] (cipher_interfaces) StdoutLine: {'line': b'[ 76%] Built target cipher_interfaces__py\n'}
+[10.833982] (cipher_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cipher_interfaces/srv/_cipher_answer_s.c.o\x1b[0m\n'}
+[10.834178] (cipher_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cipher_interfaces/msg/_cipher_message_s.c.o\x1b[0m\n'}
+[10.861068] (-) TimerEvent: {}
+[10.961601] (-) TimerEvent: {}
+[11.062030] (-) TimerEvent: {}
+[11.089541] (cipher_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cipher_interfaces/libcipher_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.164659] (-) TimerEvent: {}
+[11.166437] (cipher_interfaces) StdoutLine: {'line': b'[ 84%] Built target cipher_interfaces__rosidl_generator_py\n'}
+[11.267770] (-) TimerEvent: {}
+[11.270419] (cipher_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cipher_interfaces/_cipher_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.293500] (cipher_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cipher_interfaces/_cipher_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.293646] (cipher_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/cipher_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cipher_interfaces/_cipher_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.380472] (-) TimerEvent: {}
+[11.482476] (-) TimerEvent: {}
+[11.583152] (-) TimerEvent: {}
+[11.608161] (cipher_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.608373] (cipher_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.608454] (cipher_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.687047] (-) TimerEvent: {}
+[11.772137] (cipher_interfaces) StdoutLine: {'line': b'[100%] Built target cipher_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.772300] (cipher_interfaces) StdoutLine: {'line': b'[100%] Built target cipher_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.777471] (cipher_interfaces) StdoutLine: {'line': b'[100%] Built target cipher_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.792446] (-) TimerEvent: {}
+[11.801084] (cipher_interfaces) CommandEnded: {'returncode': 0}
+[11.893548] (-) TimerEvent: {}
+[11.996176] (-) TimerEvent: {}
+[12.102987] (-) TimerEvent: {}
+[12.205980] (-) TimerEvent: {}
+[12.310870] (-) TimerEvent: {}
+[12.323876] (cipher_interfaces) JobProgress: {'identifier': 'cipher_interfaces', 'progress': 'install'}
+[12.335543] (cipher_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ash/ros2_ws/build/cipher_interfaces'], 'cwd': '/home/ash/ros2_ws/build/cipher_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ash'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ash'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ash'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ash-VirtualBox:@/tmp/.ICE-unix/2897,unix/ash-VirtualBox:/tmp/.ICE-unix/2897'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/944ff877_8998_455d_a1bc_da2cdbc15e3b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VBDJU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ash/ros2_ws/build/cipher_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[12.370058] (cipher_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.370357] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/ament_index/resource_index/rosidl_interfaces/cipher_interfaces\n'}
+[12.370652] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces\n'}
+[12.370858] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg\n'}
+[12.370915] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/cipher_message.h\n'}
+[12.370958] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail\n'}
+[12.371222] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__functions.c\n'}
+[12.371310] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__functions.h\n'}
+[12.371350] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__struct.h\n'}
+[12.371387] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__type_support.h\n'}
+[12.371423] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.371472] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv\n'}
+[12.371505] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail\n'}
+[12.371539] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__functions.c\n'}
+[12.372128] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__functions.h\n'}
+[12.372261] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__type_support.h\n'}
+[12.372330] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__struct.h\n'}
+[12.372391] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/cipher_answer.h\n'}
+[12.373112] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/environment/library_path.sh\n'}
+[12.373241] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/environment/library_path.dsv\n'}
+[12.373322] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_generator_c.so\n'}
+[12.373700] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.374050] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces\n'}
+[12.374202] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg\n'}
+[12.374256] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail\n'}
+[12.374298] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__rosidl_typesupport_fastrtps_c.h\n'}
+[12.374338] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.374375] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv\n'}
+[12.374423] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail\n'}
+[12.374460] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__rosidl_typesupport_fastrtps_c.h\n'}
+[12.374859] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.374961] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.375015] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces\n'}
+[12.375060] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg\n'}
+[12.375149] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail\n'}
+[12.375275] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__type_support.c\n'}
+[12.375561] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__rosidl_typesupport_introspection_c.h\n'}
+[12.376007] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.376083] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv\n'}
+[12.376141] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail\n'}
+[12.376296] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__rosidl_typesupport_introspection_c.h\n'}
+[12.376364] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__type_support.c\n'}
+[12.376403] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.376441] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.376477] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_c.so\n'}
+[12.376616] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.376682] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces\n'}
+[12.377029] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg\n'}
+[12.377098] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail\n'}
+[12.377422] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__traits.hpp\n'}
+[12.377510] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__struct.hpp\n'}
+[12.377573] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__builder.hpp\n'}
+[12.377946] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/cipher_message.hpp\n'}
+[12.378011] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv\n'}
+[12.378051] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail\n'}
+[12.378095] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__builder.hpp\n'}
+[12.378130] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__traits.hpp\n'}
+[12.378375] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__struct.hpp\n'}
+[12.378428] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/cipher_answer.hpp\n'}
+[12.378474] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces\n'}
+[12.378514] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg\n'}
+[12.378553] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail\n'}
+[12.378897] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/dds_fastrtps\n'}
+[12.378951] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.378993] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.379033] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv\n'}
+[12.379071] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail\n'}
+[12.379107] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/dds_fastrtps\n'}
+[12.379141] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.379175] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.379917] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.380100] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces\n'}
+[12.380183] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg\n'}
+[12.380252] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail\n'}
+[12.380319] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.380381] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/msg/detail/cipher_message__type_support.cpp\n'}
+[12.380439] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv\n'}
+[12.380506] (cipher_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail\n'}
+[12.381122] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__type_support.cpp\n'}
+[12.381212] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/include/cipher_interfaces/cipher_interfaces/srv/detail/cipher_answer__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.381256] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.381730] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.381805] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.382186] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.382256] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/environment/pythonpath.sh\n'}
+[12.382802] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/environment/pythonpath.dsv\n'}
+[12.382965] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces-0.0.0-py3.10.egg-info\n'}
+[12.383007] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.383047] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.383255] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.383318] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.383367] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces\n'}
+[12.383876] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/libcipher_interfaces__rosidl_generator_py.so\n'}
+[12.384057] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/_cipher_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.384119] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.384429] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.384874] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/msg\n'}
+[12.384959] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/msg/_cipher_message_s.c\n'}
+[12.385196] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/msg/_cipher_message.py\n'}
+[12.385284] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/msg/__init__.py\n'}
+[12.385322] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/_cipher_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.385359] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/_cipher_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.385396] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.385436] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/__init__.py\n'}
+[12.385471] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/srv\n'}
+[12.385505] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/srv/_cipher_answer.py\n'}
+[12.385540] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/srv/_cipher_answer_s.c\n'}
+[12.385573] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/srv/__init__.py\n'}
+[12.412357] (-) TimerEvent: {}
+[12.426815] (cipher_interfaces) StdoutLine: {'line': b"Listing '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces'...\n"}
+[12.426996] (cipher_interfaces) StdoutLine: {'line': b"Compiling '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/__init__.py'...\n"}
+[12.427042] (cipher_interfaces) StdoutLine: {'line': b"Listing '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/msg'...\n"}
+[12.427080] (cipher_interfaces) StdoutLine: {'line': b"Compiling '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/msg/__init__.py'...\n"}
+[12.427119] (cipher_interfaces) StdoutLine: {'line': b"Compiling '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/msg/_cipher_message.py'...\n"}
+[12.427156] (cipher_interfaces) StdoutLine: {'line': b"Listing '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/srv'...\n"}
+[12.427191] (cipher_interfaces) StdoutLine: {'line': b"Compiling '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/srv/__init__.py'...\n"}
+[12.427228] (cipher_interfaces) StdoutLine: {'line': b"Compiling '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/srv/_cipher_answer.py'...\n"}
+[12.431497] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.432130] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.432253] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.432736] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.432954] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.433372] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages/cipher_interfaces/cipher_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.433483] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_generator_py.so\n'}
+[12.433881] (cipher_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ash/ros2_ws/install/cipher_interfaces/lib/libcipher_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.433993] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/msg/CipherMessage.idl\n'}
+[12.434043] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/srv/CipherAnswer.idl\n'}
+[12.434080] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/msg/CipherMessage.msg\n'}
+[12.434116] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/srv/CipherAnswer.srv\n'}
+[12.434547] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/srv/CipherAnswer_Request.msg\n'}
+[12.434625] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/srv/CipherAnswer_Response.msg\n'}
+[12.434664] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/ament_index/resource_index/package_run_dependencies/cipher_interfaces\n'}
+[12.434900] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/ament_index/resource_index/parent_prefix_path/cipher_interfaces\n'}
+[12.434995] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/environment/ament_prefix_path.sh\n'}
+[12.435453] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.435567] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/environment/path.sh\n'}
+[12.435613] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/environment/path.dsv\n'}
+[12.436077] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/local_setup.bash\n'}
+[12.436155] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/local_setup.sh\n'}
+[12.436577] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/local_setup.zsh\n'}
+[12.436642] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/local_setup.dsv\n'}
+[12.436688] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/package.dsv\n'}
+[12.437283] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/ament_index/resource_index/packages/cipher_interfaces\n'}
+[12.437609] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.437687] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.437992] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.438403] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.438528] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.438923] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.439112] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.439484] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.439603] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.440163] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.441160] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.441380] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.441453] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.441527] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.441912] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.441986] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.442408] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/export_cipher_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.442652] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.443148] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.443243] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.443309] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.443370] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.443426] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.443614] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.444108] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfacesConfig.cmake\n'}
+[12.444241] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake/cipher_interfacesConfig-version.cmake\n'}
+[12.444310] (cipher_interfaces) StdoutLine: {'line': b'-- Installing: /home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/package.xml\n'}
+[12.466127] (cipher_interfaces) CommandEnded: {'returncode': 0}
+[12.513385] (-) TimerEvent: {}
+[12.619010] (-) TimerEvent: {}
+[12.723199] (-) TimerEvent: {}
+[12.824072] (-) TimerEvent: {}
+[12.922242] (cipher_interfaces) JobEnded: {'identifier': 'cipher_interfaces', 'rc': 0}
+[12.923436] (decipher) JobStarted: {'identifier': 'decipher'}
+[12.926118] (-) TimerEvent: {}
+[12.959062] (decipher) JobProgress: {'identifier': 'decipher', 'progress': 'cmake'}
+[12.959132] (decipher) Command: {'cmd': ['/usr/bin/cmake', '/home/ash/ros2_ws/src/decipher', '-DCMAKE_INSTALL_PREFIX=/home/ash/ros2_ws/install/decipher'], 'cwd': '/home/ash/ros2_ws/build/decipher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ash'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ash/ros2_ws/install/cipher_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ash'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ash'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ash-VirtualBox:@/tmp/.ICE-unix/2897,unix/ash-VirtualBox:/tmp/.ICE-unix/2897'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/944ff877_8998_455d_a1bc_da2cdbc15e3b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VBDJU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ash/ros2_ws/install/cipher_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ash/ros2_ws/build/decipher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ash/ros2_ws/install/cipher_interfaces:/opt/ros/humble')]), 'shell': False}
+[13.028315] (-) TimerEvent: {}
+[13.123057] (decipher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.128905] (-) TimerEvent: {}
+[13.219642] (decipher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.228641] (decipher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.229063] (-) TimerEvent: {}
+[13.330677] (-) TimerEvent: {}
+[13.342759] (decipher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.350530] (decipher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.351135] (decipher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.351701] (decipher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.354923] (decipher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.431041] (-) TimerEvent: {}
+[13.502462] (decipher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.525021] (decipher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.525472] (decipher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.525947] (decipher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.528158] (decipher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[13.531186] (-) TimerEvent: {}
+[13.696820] (decipher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[13.697105] (-) TimerEvent: {}
+[13.809396] (-) TimerEvent: {}
+[13.810136] (decipher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[13.863391] (decipher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[13.868905] (decipher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[13.880949] (decipher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[13.887724] (decipher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.902713] (decipher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.910893] (-) TimerEvent: {}
+[13.948405] (decipher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[13.958778] (decipher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[14.022283] (-) TimerEvent: {}
+[14.122833] (-) TimerEvent: {}
+[14.126247] (decipher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[14.157187] (decipher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[14.199526] (decipher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[14.209410] (decipher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[14.223078] (-) TimerEvent: {}
+[14.324716] (-) TimerEvent: {}
+[14.336944] (decipher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[14.337491] (decipher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.427021] (-) TimerEvent: {}
+[14.456508] (decipher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.459443] (decipher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.532166] (-) TimerEvent: {}
+[14.536877] (decipher) StdoutLine: {'line': b'-- Found cipher_interfaces: 0.0.0 (/home/ash/ros2_ws/install/cipher_interfaces/share/cipher_interfaces/cmake)\n'}
+[14.550129] (decipher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.632784] (-) TimerEvent: {}
+[14.651396] (decipher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.651537] (decipher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.651582] (decipher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.651620] (decipher) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.654136] (decipher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.654259] (decipher) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.655004] (decipher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.655133] (decipher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.656382] (decipher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.657836] (decipher) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.676352] (decipher) StdoutLine: {'line': b'-- Generating done\n'}
+[14.679587] (decipher) StdoutLine: {'line': b'-- Build files have been written to: /home/ash/ros2_ws/build/decipher\n'}
+[14.694385] (decipher) CommandEnded: {'returncode': 0}
+[14.695652] (decipher) JobProgress: {'identifier': 'decipher', 'progress': 'build'}
+[14.695681] (decipher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ash/ros2_ws/build/decipher', '--', '-j14', '-l14'], 'cwd': '/home/ash/ros2_ws/build/decipher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ash'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ash/ros2_ws/install/cipher_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ash'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ash'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ash-VirtualBox:@/tmp/.ICE-unix/2897,unix/ash-VirtualBox:/tmp/.ICE-unix/2897'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/944ff877_8998_455d_a1bc_da2cdbc15e3b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VBDJU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ash/ros2_ws/install/cipher_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ash/ros2_ws/build/decipher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ash/ros2_ws/install/cipher_interfaces:/opt/ros/humble')]), 'shell': False}
+[14.733075] (-) TimerEvent: {}
+[14.837902] (-) TimerEvent: {}
+[14.841111] (decipher) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/test.cpp.o\x1b[0m\n'}
+[14.843445] (decipher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/decipher2.cpp.o\x1b[0m\n'}
+[14.843591] (decipher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/service.dir/src/testsrv.cpp.o\x1b[0m\n'}
+[14.944055] (-) TimerEvent: {}
+[15.046038] (-) TimerEvent: {}
+[15.154091] (-) TimerEvent: {}
+[15.257211] (-) TimerEvent: {}
+[15.375248] (-) TimerEvent: {}
+[15.476948] (-) TimerEvent: {}
+[15.577590] (-) TimerEvent: {}
+[15.681635] (-) TimerEvent: {}
+[15.803049] (-) TimerEvent: {}
+[15.903667] (-) TimerEvent: {}
+[16.015063] (-) TimerEvent: {}
+[16.121750] (-) TimerEvent: {}
+[16.225213] (-) TimerEvent: {}
+[16.338212] (-) TimerEvent: {}
+[16.449029] (-) TimerEvent: {}
+[16.550208] (-) TimerEvent: {}
+[16.676966] (-) TimerEvent: {}
+[16.777926] (-) TimerEvent: {}
+[16.887698] (-) TimerEvent: {}
+[16.990754] (-) TimerEvent: {}
+[17.110129] (-) TimerEvent: {}
+[17.236840] (-) TimerEvent: {}
+[17.338129] (-) TimerEvent: {}
+[17.472151] (-) TimerEvent: {}
+[17.605362] (-) TimerEvent: {}
+[17.707278] (-) TimerEvent: {}
+[17.827035] (-) TimerEvent: {}
+[17.941967] (-) TimerEvent: {}
+[18.078090] (-) TimerEvent: {}
+[18.196833] (-) TimerEvent: {}
+[18.304710] (-) TimerEvent: {}
+[18.409313] (-) TimerEvent: {}
+[18.561679] (-) TimerEvent: {}
+[18.662023] (-) TimerEvent: {}
+[18.662796] (decipher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ash/ros2_ws/src/decipher/src/decipher2.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DecipherNode::topic_callback(const CipherMessage&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.663018] (decipher) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ash/ros2_ws/src/decipher/src/decipher2.cpp:57:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst class DecipherNode\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[18.663113] (decipher) StderrLine: {'line': b'   57 |       if (rclcpp::spin_until_future_complete(this->\x1b[01;31m\x1b[Knode\x1b[m\x1b[K, result_future)\n'}
+[18.663182] (decipher) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.663244] (decipher) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[KNode\x1b[m\x1b[K\n'}
+[18.801271] (-) TimerEvent: {}
+[18.908701] (-) TimerEvent: {}
+[19.013933] (-) TimerEvent: {}
+[19.123967] (-) TimerEvent: {}
+[19.224958] (-) TimerEvent: {}
+[19.337082] (-) TimerEvent: {}
+[19.450235] (-) TimerEvent: {}
+[19.571937] (-) TimerEvent: {}
+[19.690779] (-) TimerEvent: {}
+[19.791389] (-) TimerEvent: {}
+[19.911986] (-) TimerEvent: {}
+[20.015506] (-) TimerEvent: {}
+[20.118197] (-) TimerEvent: {}
+[20.234331] (-) TimerEvent: {}
+[20.262469] (decipher) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable service\x1b[0m\n'}
+[20.334735] (-) TimerEvent: {}
+[20.443025] (-) TimerEvent: {}
+[20.506162] (decipher) StdoutLine: {'line': b'[ 66%] Built target service\n'}
+[20.543524] (-) TimerEvent: {}
+[20.644197] (-) TimerEvent: {}
+[20.789951] (-) TimerEvent: {}
+[20.942810] (-) TimerEvent: {}
+[21.043278] (-) TimerEvent: {}
+[21.176153] (-) TimerEvent: {}
+[21.280902] (-) TimerEvent: {}
+[21.396803] (-) TimerEvent: {}
+[21.499934] (-) TimerEvent: {}
+[21.519005] (decipher) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[21.605205] (-) TimerEvent: {}
+[21.771128] (-) TimerEvent: {}
+[21.803993] (decipher) StdoutLine: {'line': b'[ 83%] Built target talker\n'}
+[22.152825] (-) TimerEvent: {}
+[22.249907] (decipher) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/decipher2.cpp.o] Error 1\n'}
+[22.250113] (decipher) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/listener.dir/all] Error 2\n'}
+[22.258958] (-) TimerEvent: {}
+[22.268721] (decipher) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.277587] (decipher) CommandEnded: {'returncode': 2}
+[22.359793] (-) TimerEvent: {}
+[22.440536] (decipher) JobEnded: {'identifier': 'decipher', 'rc': 2}
+[22.457269] (-) EventReactorShutdown: {}

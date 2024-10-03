@@ -1,0 +1,44 @@
+[0.049s] Invoking command in '/home/ash/ros2_ws/build/cipher_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ash/ros2_ws/build/cipher_interfaces -- -j14 -l14
+[0.302s] [  2%] Built target cipher_interfaces__cpp
+[0.306s] [ 12%] Built target cipher_interfaces__rosidl_generator_c
+[0.318s] [ 12%] Built target ament_cmake_python_copy_cipher_interfaces
+[0.475s] [ 23%] Built target cipher_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.496s] [ 33%] Built target cipher_interfaces__rosidl_typesupport_cpp
+[0.496s] [ 43%] Built target cipher_interfaces__rosidl_typesupport_fastrtps_c
+[0.516s] [ 53%] Built target cipher_interfaces__rosidl_typesupport_introspection_cpp
+[0.516s] [ 64%] Built target cipher_interfaces__rosidl_typesupport_introspection_c
+[0.560s] [ 74%] Built target cipher_interfaces__rosidl_typesupport_c
+[0.767s] [ 74%] Built target cipher_interfaces
+[0.964s] [ 76%] Built target cipher_interfaces__py
+[0.981s] Traceback (most recent call last):
+[0.981s]   File "/home/ash/ros2_ws/build/cipher_interfaces/ament_cmake_python/cipher_interfaces/setup.py", line 1, in <module>
+[0.981s]     from setuptools import find_packages
+[0.981s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.981s] gmake[2]: *** [CMakeFiles/cipher_interfaces__rosidl_generator_py.dir/build.make:136: CMakeFiles/cipher_interfaces__rosidl_generator_py.dir/depend] Interrupt
+[0.981s] gmake[1]: *** [CMakeFiles/Makefile2:474: CMakeFiles/cipher_interfaces__rosidl_generator_py.dir/all] Interrupt
+[1.002s]     import setuptools.version
+[1.002s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.007s]     import pkg_resources
+[1.007s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[1.025s]     def _initialize_master_working_set():
+[1.025s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[1.026s]     f(*args, **kwargs)
+[1.030s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[1.030s]     working_set = WorkingSet._build_master()
+[1.030s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[1.030s]     ws = cls()
+[1.031s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[1.032s]     self.add_entry(entry)
+[1.038s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[1.038s]     for dist in find_distributions(entry, True):
+[1.038s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[1.038s]     for dist in factory(fullpath):
+[1.038s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2134, in distributions_from_metadata
+[1.038s]     if os.path.isdir(path):
+[1.038s]   File "/usr/lib/python3.10/genericpath.py", line 42, in isdir
+[1.040s]     st = os.stat(s)
+[1.040s] KeyboardInterrupt
+[1.101s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_cipher_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_cipher_interfaces_egg] Interrupt
+[1.102s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_cipher_interfaces_egg.dir/all] Interrupt
+[1.102s] gmake: *** [Makefile:146: all] Interrupt
+[1.151s] Invoked command in '/home/ash/ros2_ws/build/cipher_interfaces' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ash/ros2_ws/build/cipher_interfaces -- -j14 -l14

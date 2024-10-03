@@ -1,0 +1,4 @@
+source;share/decipher/local_setup.bash
+source;share/decipher/local_setup.dsv
+source;share/decipher/local_setup.sh
+source;share/decipher/local_setup.zsh

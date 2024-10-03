@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cipher_interfaces/srv/CipherAnswer.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module cipher_interfaces {
+  module srv {
+    struct CipherAnswer_Request {
+      std_msgs::msg::Header header;
+
+      string answer;
+    };
+    struct CipherAnswer_Response {
+      boolean result;
+    };
+  };
+};

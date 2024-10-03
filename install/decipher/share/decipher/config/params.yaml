@@ -1,0 +1,4 @@
+decipher_node:
+  ros__parameters:
+    topic_name: "topic"
+    service_name: "check_answer"

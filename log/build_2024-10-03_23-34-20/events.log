@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000708] (cipher_interfaces) JobQueued: {'identifier': 'cipher_interfaces', 'dependencies': OrderedDict()}
+[0.000813] (decipher) JobQueued: {'identifier': 'decipher', 'dependencies': OrderedDict([('cipher_interfaces', '/home/ash/ros2_ws/install/cipher_interfaces')])}
+[0.003025] (cipher_interfaces) JobStarted: {'identifier': 'cipher_interfaces'}
+[0.051242] (cipher_interfaces) JobProgress: {'identifier': 'cipher_interfaces', 'progress': 'cmake'}
+[0.051308] (cipher_interfaces) JobProgress: {'identifier': 'cipher_interfaces', 'progress': 'build'}
+[0.051327] (cipher_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ash/ros2_ws/build/cipher_interfaces', '--', '-j14', '-l14'], 'cwd': '/home/ash/ros2_ws/build/cipher_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'ash'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ash/ros2_ws/install/cipher_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ash'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3555'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ash/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ash'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ash-VirtualBox:@/tmp/.ICE-unix/2897,unix/ash-VirtualBox:/tmp/.ICE-unix/2897'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/944ff877_8998_455d_a1bc_da2cdbc15e3b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VBDJU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ash/ros2_ws/install/decipher:/home/ash/ros2_ws/install/cipher_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ash/ros2_ws/build/cipher_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ash/ros2_ws/install/cipher_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ash/ros2_ws/install/decipher:/home/ash/ros2_ws/install/cipher_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.115137] (-) TimerEvent: {}
+[0.223744] (-) TimerEvent: {}
+[0.304593] (cipher_interfaces) StdoutLine: {'line': b'[  2%] Built target cipher_interfaces__cpp\n'}
+[0.308525] (cipher_interfaces) StdoutLine: {'line': b'[ 12%] Built target cipher_interfaces__rosidl_generator_c\n'}
+[0.321140] (cipher_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_cipher_interfaces\n'}
+[0.326582] (-) TimerEvent: {}
+[0.428851] (-) TimerEvent: {}
+[0.475879] (cipher_interfaces) StdoutLine: {'line': b'[ 23%] Built target cipher_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.499249] (cipher_interfaces) StdoutLine: {'line': b'[ 33%] Built target cipher_interfaces__rosidl_typesupport_cpp\n'}
+[0.499392] (cipher_interfaces) StdoutLine: {'line': b'[ 43%] Built target cipher_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.519227] (cipher_interfaces) StdoutLine: {'line': b'[ 53%] Built target cipher_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.519407] (cipher_interfaces) StdoutLine: {'line': b'[ 64%] Built target cipher_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.529674] (-) TimerEvent: {}
+[0.563430] (cipher_interfaces) StdoutLine: {'line': b'[ 74%] Built target cipher_interfaces__rosidl_typesupport_c\n'}
+[0.637596] (-) TimerEvent: {}
+[0.739360] (-) TimerEvent: {}
+[0.768781] (cipher_interfaces) StdoutLine: {'line': b'[ 74%] Built target cipher_interfaces\n'}
+[0.840583] (-) TimerEvent: {}
+[0.943130] (-) TimerEvent: {}
+[0.965786] (cipher_interfaces) StdoutLine: {'line': b'[ 76%] Built target cipher_interfaces__py\n'}
+[0.984024] (cipher_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.984299] (cipher_interfaces) StderrLine: {'line': b'  File "/home/ash/ros2_ws/build/cipher_interfaces/ament_cmake_python/cipher_interfaces/setup.py", line 1, in <module>\n'}
+[0.984417] (cipher_interfaces) StderrLine: {'line': b'    from setuptools import find_packages\n'}
+[0.984462] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>\n'}
+[0.984506] (cipher_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cipher_interfaces__rosidl_generator_py.dir/build.make:136: CMakeFiles/cipher_interfaces__rosidl_generator_py.dir/depend] Interrupt\n'}
+[0.984548] (cipher_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:474: CMakeFiles/cipher_interfaces__rosidl_generator_py.dir/all] Interrupt\n'}
+[1.004584] (cipher_interfaces) StderrLine: {'line': b'    import setuptools.version\n'}
+[1.004756] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n'}
+[1.009527] (cipher_interfaces) StderrLine: {'line': b'    import pkg_resources\n'}
+[1.009695] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>\n'}
+[1.025906] (cipher_interfaces) StderrLine: {'line': b'    def _initialize_master_working_set():\n'}
+[1.027799] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside\n'}
+[1.027874] (cipher_interfaces) StderrLine: {'line': b'    f(*args, **kwargs)\n'}
+[1.033346] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set\n'}
+[1.033475] (cipher_interfaces) StderrLine: {'line': b'    working_set = WorkingSet._build_master()\n'}
+[1.033520] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master\n'}
+[1.033559] (cipher_interfaces) StderrLine: {'line': b'    ws = cls()\n'}
+[1.033595] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__\n'}
+[1.035125] (cipher_interfaces) StderrLine: {'line': b'    self.add_entry(entry)\n'}
+[1.040525] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry\n'}
+[1.040678] (cipher_interfaces) StderrLine: {'line': b'    for dist in find_distributions(entry, True):\n'}
+[1.040727] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path\n'}
+[1.040766] (cipher_interfaces) StderrLine: {'line': b'    for dist in factory(fullpath):\n'}
+[1.040802] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2134, in distributions_from_metadata\n'}
+[1.040839] (cipher_interfaces) StderrLine: {'line': b'    if os.path.isdir(path):\n'}
+[1.040875] (cipher_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.10/genericpath.py", line 42, in isdir\n'}
+[1.042617] (cipher_interfaces) StderrLine: {'line': b'    st = os.stat(s)\n'}
+[1.042723] (cipher_interfaces) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[1.044508] (-) TimerEvent: {}
+[1.104046] (cipher_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ament_cmake_python_build_cipher_interfaces_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_cipher_interfaces_egg] Interrupt\n'}
+[1.105027] (cipher_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_cipher_interfaces_egg.dir/all] Interrupt\n'}
+[1.105163] (cipher_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[1.153706] (cipher_interfaces) CommandEnded: {'returncode': -2}
+[1.154079] (-) TimerEvent: {}
+[1.259675] (-) TimerEvent: {}
+[1.361956] (-) TimerEvent: {}
+[1.463826] (-) TimerEvent: {}
+[1.471086] (cipher_interfaces) JobEnded: {'identifier': 'cipher_interfaces', 'rc': 'SIGINT'}
+[1.487282] (decipher) JobSkipped: {'identifier': 'decipher'}
+[1.487338] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+{
+  "package_name": "cipher_interfaces",
+  "non_idl_tuples": [
+    "/home/ash/ros2_ws/src/cipher_interfaces:msg/CipherMessage.msg",
+    "/home/ash/ros2_ws/src/cipher_interfaces:srv/CipherAnswer.srv"
+  ]
+}
